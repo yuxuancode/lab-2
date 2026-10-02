@@ -3,61 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lab 1 - Portfolio Showcase</title>
+  <title>Week 2 - Responsive Flexbox Layout</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <header>
-    <strong class="logo">LOGO</strong>
+  <header class="navbar">
+    <div class="logo">WebDev II</div>
     <nav>
-      <a href="#home">Home</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Topics</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
-  <section class="bio-hero">
-    <h1>Personal Profile</h1>
-    <p>Welcome to my portfolio! </p>
-  </section>
+  <main class="container">
+    <section class="bio-hero">
+      <h1>Responsive Card Grid</h1>
+    </section>
 
-  <main>
     <section class="card-grid">
       <article class="card">
         <header>
-          <h2>Project 1</h2>
+          <h2>Mobile First</h2>
         </header>
-        <p>Least cost path modeling and drive-time accessibility analysis developed using ArcGIS Pro and Python.</p>
-        <footer>
-          <mark class="tag">GIS &amp; ArcPy</mark>
-        </footer>
+        <p>Start with simple layouts designed for small screens.</p>
       </article>
 
       <article class="card">
         <header>
-          <h2>Project 2</h2>
+          <h2>CSS Flexbox</h2>
         </header>
-        <p>High-resolution texture baking, raster graphics processing, and performance-tuned asset compression pipelines.</p>
-        <footer>
-          <mark class="tag">Photoshop &amp; Assets</mark>
-        </footer>
+        <p>Easily align and space content items horizontally or vertically.</p>
       </article>
 
       <article class="card">
         <header>
-          <h2>Project 3</h2>
+          <h2>Media Queries</h2>
         </header>
-        <p>Wireframing, prototyping, and coding accessible, mobile-first web components from scratch.</p>
-        <footer>
-          <mark class="tag">HTML &amp; CSS</mark>
-        </footer>
+        <p>Use min-width rules to adapt styles for tablets and desktop screens.</p>
       </article>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 Student Showcase.</p>
+    <p>&copy; 2026 WebDev II.</p>
   </footer>
 
 </body>
