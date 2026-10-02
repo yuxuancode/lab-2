@@ -109,6 +109,7 @@ footer {
     gap: 0; 
   }
 
+/* flex: 1 */
   .card {
     flex-basis: 30%; 
   }
